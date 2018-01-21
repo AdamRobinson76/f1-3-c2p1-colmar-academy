@@ -1,0 +1,526 @@
+/*Universal Rules*/
+
+html{font-size: 16px;
+font-family: helvetica, sans-serif;}
+
+h1{font-size: 2.5rem;
+  color: hsl(359, 4%, 26%);
+}
+
+h4{font-size: 1.5rem;
+color: hsl(359, 4%, 26%);}
+
+p{font-size: .9rem;
+color: hsl(0, 0%, 43%);
+line-height: 1.5;
+}
+
+#desktop a {
+text-decoration: none;
+color: hsl(359, 1%, 27%);
+}
+
+
+
+@media screen and (min-width:480px){
+  #mobile{display: none;}
+}
+
+@media screen and (max-width: 480px){
+  #desktop{display: none;}
+}
+
+/* Header Desktop */
+
+#desktop header{display: flex;
+align-items: center;
+width: 100%;
+height: 4rem;
+justify-content: space-between;
+background-color: white;
+}
+
+#desktop nav {
+  margin-right: 1.5rem;
+align-items: flex-end;
+}
+
+#desktop nav li{
+  flex-direction: row;
+    display: inline;
+    margin-right: 1rem;
+    }
+
+
+
+#desktop img{
+  margin-left: 1.5rem;
+}
+
+#desktop h2{
+  font-size: 2rem;
+color: hsl(0, 0%, 13%);
+float: right;
+}
+
+#desktop .grey{color: hsl(359, 1%, 46%);}
+
+#desktop nav a:hover{
+ color: hsl(213, 32%, 67%);
+ font-weight: bold;
+}
+
+#desktop nav a:active{
+ color: hsl(204, 75%, 57%);
+}
+
+/* Header Mobile*/
+
+#mobile header {width: 100%;
+height: 4rem;
+display: flex;
+justify-content: space-around;
+align-content: center;
+}
+
+#mobile header a{
+  padding-top: 1.25rem;
+}
+
+
+/* Banner Section Desktop */
+
+.banner{
+  width: 100%;
+  background-color: hsla(213, 26%, 83%, 0.56);
+  display: inline-flex;
+}
+
+ .studying{
+  width: 60%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.studying img{
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.right{
+  width: 40%;
+  display: flex;
+  align-self: center;
+}
+
+ .text{
+  margin-left: 1.5rem;
+  font-weight: bold;
+}
+ .text h1{
+  margin-bottom: 1.5rem;
+}
+
+ .text h4{
+  margin-bottom: 1.5rem;
+}
+
+ .text h6{
+  background-color: hsl(359, 5%, 16%);
+  text-align: center;
+}
+
+#desktop .text a {color: white;
+  line-height: 3.5rem;
+}
+
+#desktop .text a:hover{
+ color: hsl(213, 32%, 67%);
+ font-weight: bold;
+}
+
+#desktop .text a:active{
+ color: hsl(204, 75%, 57%);
+}
+
+/* Banner Mobile */
+
+#mobile .banner{
+  width: 100%;
+  background-color: hsla(213, 26%, 83%, 0.56);
+  display: block;
+
+}
+#mobile .studying{width: 100%;
+margin-left: 0;
+}
+
+#mobile .right{
+width: 100%;}
+
+#mobile .text a {color: white;
+  line-height: 3.5rem;
+  text-decoration: none;}
+
+
+  #mobile .text h1{
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-top: 0;
+    margin-left: 2.75rem;
+  }
+
+  #mobile .text h4{
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-left: 2.75rem;
+  }
+
+  #mobile .text h6{
+    margin-bottom: 2rem;
+    background-color: hsl(359, 5%, 16%);
+    text-align: center;
+    margin-left: 1.75rem;
+  }
+
+  #mobile .text a:hover{
+   color: hsl(213, 32%, 67%);
+   font-weight: bold;
+  }
+
+  #mobile .text a:active{
+   color: hsl(204, 75%, 57%);
+  }
+
+
+
+/* Practice Desktop */
+
+#desktop .practice{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  width: 100%;
+}
+
+#desktop .sweater{
+  width: 60%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+#desktop .sweater img{
+  width: 100%;
+}
+
+#desktop .hurt{
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  }
+
+  #desktop .hurt h1{
+    margin-bottom: 1.5rem;
+  }
+
+  #desktop .hurt p{
+    margin-bottom: 2rem;
+  }
+
+#desktop .dates{
+  width: 40%;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#desktop .thirds{
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+#desktop .thirds img{
+  width: 35%;
+  height: 100%;
+  margin-bottom: 1rem;
+}
+
+#desktop .thirds:first-child{
+  border-bottom: .2rem solid hsl(359, 7%, 85%);
+}
+
+#desktop .thirds:last-child{
+    background-color: hsla(213, 26%, 83%, 0.56);
+}
+
+#desktop .thirds:last-child p{color: hsl(0, 0%, 43%);}
+
+#desktop .thirds:last-child img{
+  padding-top: 1rem;
+  padding-top: 1rem;
+}
+
+#desktop .words{
+  width: 65%;
+  flex-direction: column;
+  margin-top: 3.5rem;
+  line-height: 2;
+}
+
+#desktop .words a{
+  text-decoration: none;
+  color: hsl(213, 98%, 46%);
+}
+
+#desktop .words a:hover{
+ color: hsl(213, 32%, 67%);
+ font-weight: bold;
+}
+
+#desktop .words a:active{
+ color: hsl(204, 75%, 57%);
+}
+/* Practice Mobile */
+
+#mobile .dates{
+  margin: 1rem;
+}
+
+#mobile .thirds{
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#mobile .words {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  line-height: 1.5;
+}
+
+#mobile .words h4{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#mobile .words p{
+  margin-bottom: 1rem;
+}
+
+#mobile .words a{
+  text-decoration: none;
+  color: hsl(213, 98%, 46%);
+}
+
+#mobile .words a:hover{
+ color: hsl(213, 32%, 67%);
+ font-weight: bold;
+}
+
+#mobile .words a:active{
+ color: hsl(204, 75%, 57%);
+}
+
+/* Learning Desktop */
+
+
+#desktop .learning{
+  width: 100%;
+  background-color: hsla(213, 26%, 83%, 0.56);
+}
+
+#desktop .learning h1{text-align: center;
+margin-bottom: 2rem;
+padding-top: 2rem;
+font-weight: 700;
+
+}
+
+#desktop .courses{
+  width: 30%;
+  height: auto;
+  background-color: white;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+#desktop .content{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 4.5rem;
+}
+
+#desktop .courses img{
+  height: auto;
+  width: 100%;
+  margin-left: 0%;
+}
+
+#desktop .explain{
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+#desktop .explain p{
+  margin: .5rem auto .5rem auto;
+}
+
+#desktop .explain a:hover{
+ color: hsl(213, 32%, 67%);
+ font-weight: bold;
+}
+
+#desktop .explain a:active{
+ color: hsl(204, 75%, 57%);
+}
+
+/* Learning Mobile */
+
+
+#mobile h1{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+#mobile .courses-mobile h4{
+  background-color: hsla(213, 26%, 83%, 0.56);
+  margin-bottom: .5rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+#mobile .courses-mobile a{
+  text-decoration: none;
+  color: hsl(359, 5%, 16%);
+  vertical-align: middle;
+}
+
+#mobile .courses-mobile a:hover{
+ color: hsl(213, 32%, 67%);
+ font-weight: bold;
+}
+
+#mobile .courses-mobile a:active{
+ color: hsl(204, 75%, 57%);
+}
+
+
+
+
+/* Thesis Desktop */
+
+#desktop .thesis-container{
+  width: 100%;
+  display: flex;
+}
+
+#desktop .thesis-header h1{
+  padding-top: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 700;
+
+}
+
+#desktop .thesis{
+  width: 60%;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+
+#desktop .exhibit{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+}
+
+#desktop .exhibit img{
+  padding: .5rem;
+  height: 100%;
+  width: 35%;
+}
+#desktop .exhibit .exhibitbox:first-child{
+  background-color: hsla(213, 26%, 83%, 0.56);
+}
+
+#desktop .exhibitbox{
+  display: flex;
+}
+
+#desktop .exhibit-words h4{
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+#desktop .urban{
+  margin-top: 1.5rem;
+}
+
+#desktop .urban h4{
+  margin-bottom: .5rem;
+}
+
+/* Thesis Mobile */
+
+#mobile .thesis h1{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+/* Footer Desktop */
+
+#desktop .footer{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+  border-top: .5px solid hsl(0, 1%, 79%);
+}
+
+#desktop .copyright{
+  margin-left: 1.5rem;
+  font-size: .75rem;
+}
+
+#desktop .footer .terms{
+  display: inline-flex;
+  font-size: .75rem;
+}
+
+#desktop .footer .terms h5{
+  margin-right: .5rem;
+}
+
+#desktop .terms a:hover{
+ color: hsl(213, 32%, 67%);
+ font-weight: bold;
+}
+
+#desktop .terms a:active{
+ color: hsl(204, 75%, 57%);
+}
+
+
+
+/* Footer Mobile */
+
+#mobile .footer{
+  font-size: .75rem;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
